@@ -1,0 +1,35 @@
+.footer{
+    text-align: -webkit-center;
+    font-family: 'Work Sans', sans-serif;
+}
+.footer h1, .footer h6{
+    color: black;
+    text-align: center;
+}
+.footer h1{
+    font-weight: 600;
+    font-size: 62px;
+    margin-top: 70px;
+}
+.footer h6{
+    font-weight: 500;
+    font-size: 38px;
+}
+.footer table{
+    margin-top: 100px;
+    color: black;
+    width: 100%;
+    font-weight: 500;
+    font-size: 42px;
+    border-spacing: 5px;
+}
+.headers{
+    font-weight: 600;
+    font-size: 56px;
+}
+.footer table tr td {
+    padding-left: 100px;
+}
+.footer table tr th {
+    padding-left: 100px;
+}

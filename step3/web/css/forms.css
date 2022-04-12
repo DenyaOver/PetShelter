@@ -1,0 +1,92 @@
+.Container{
+    text-align: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #003153;
+    margin-bottom: 18px;
+}
+.logo a{
+    text-decoration: none;
+}
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: 1px solid black;
+    width: 50%;
+    color: #000000;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    color: #242222;
+}
+.pasword{
+    display: flex;
+    justify-content: center;
+}
+.pasword .form-group{
+    width: 100%;
+}
+.form-group{
+    width: 40%;
+}
+label{
+    flex-direction: column;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+}
+.formRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img{
+    width: 128px;
+    height: 122px;
+}
+.logoPets{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+.logoHome{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+}
+.titleReg{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    padding-bottom: 28px;
+}
+.titleSign{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+@media (min-width: 992px) {
+    .col-lg-1 {
+        max-width: none;
+    }
+    .col-lg-3{
+        max-width: none;
+    }
+}

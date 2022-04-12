@@ -1,0 +1,142 @@
+body{
+    background-image: url(../images/FAQ_page.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.header_part{
+    background-image: url(../images/circle.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 74px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30%;
+    padding-top: 156px;
+}
+.main_part{
+    background-color: #8CB122;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 155px;
+}
+.main_part::after{
+    margin-top: 50px;
+    content: "";
+    border-bottom: 2px black solid;
+    width: 95%;
+    height: 5px;
+    background-color: black;
+}
+.footer_part{
+    background: url(../images/circle.png) 100% 100% no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.blocks{
+    height: 266px;
+    width: 467px;
+    background-color: white;
+    color: #FF2A54;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.blocks p {
+    color: #2E363E;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+.question{
+    margin-top: 130px;
+    padding-top: 80px;
+    padding-left: 38px;
+    padding-right: 38px;
+    color: black;
+    width: 1306px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+}
+.accordion {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    cursor: pointer;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    border-bottom: 2px black solid;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: 500;
+    align-items: center;
+}
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+
+/* Гамбургер иконка */
+.menu-btn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index:2;
+    overflow: hidden;
+}
+
+.menu-btn span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222222;
+    transition: all 0.5s;
+}
+
+.menu-btn span:nth-of-type(2) {
+    top: calc(50% - 5px);
+}
+.menu-btn span:nth-of-type(3) {
+    top: calc(50% + 5px);
+}
+
+/* Меняем гамбургер иконку, когда меню открыто */
+.menu-btn.active span:nth-of-type(1) {
+    display: none;
+}
+.menu-btn.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);
+}
+.menu-btn.active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg);
+}

@@ -1,0 +1,39 @@
+body{
+    background-image: url(../images/NewsPage.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.Container{
+    background-image: url(../images/BlueCircle.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.title{
+    text-align: center;
+    margin-top: 8%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 74px;
+}
+.headerContainer{
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.centralContainer{
+    background-color: #4E7CC1;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    padding-left: 100px;
+    padding-right: 100px;
+}

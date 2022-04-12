@@ -1,0 +1,41 @@
+body{
+    background-image: url(../images/About_page.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+form{
+    color: black;
+}
+.About_opis{
+    padding-top: 2%;
+    padding-left: 100px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+}
+.About_opis h1 {
+    padding-left: 5%;
+    font-weight: 600;
+    font-size: 52px;
+}
+.main{
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 140px;
+    padding-top: 200px;
+    background-image: url(../images/circle.png);
+    background-size: cover;
+    background-position: center;
+    font-weight: 500;
+    font-size: 42px;
+    padding-bottom: 100px;
+}
+.main h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 72px;
+    padding-bottom: 200px;
+}
+.main p {
+    padding-left: 10%;
+    padding-top: 50px;
+}

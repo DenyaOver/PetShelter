@@ -1,0 +1,72 @@
+.header{
+    color: black !important;
+}
+.nav .navbar-nav a{
+    color: black !important;
+}
+.logo a{
+    color: black !important;
+}
+.Container{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 257px;
+    padding-left: 100px;
+    padding-top: 125px;
+    padding-bottom: 15%;
+}
+.titleName{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+}
+.titleCharacter{
+    padding-top: 65px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+}
+.nameTitleDescription{
+
+}
+.titleDescription{
+    padding-top: 41px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 152%;
+}
+.titleButton{
+    padding-top: 70px;
+}
+.modal-header .close{
+    border-radius: 0px;
+}
+.modal.show .modal-dialog{
+    margin-top: 15%;
+}
+.modal-body{
+    padding: 2rem;
+}
+.titleButton button {
+    border: 1px solid #DE163E;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #DE163E;
+    color: white;
+}
+.photo{
+    border: 1px solid #9A6262;
+    border-radius: 20px;
+    width: 508px;
+    height: 586px;
+    overflow: hidden;
+}
+.photo img {
+    width: 520px;
+}

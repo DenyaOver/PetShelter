@@ -1,0 +1,86 @@
+body{
+    background-image: url(../images/FindPages.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.Container{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.headerContainer{
+    background-image: url(../images/WhiteCircle.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    color: #6A727A;
+    padding-left: 100px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+}
+.title{
+    text-align: center;
+    margin-top: 15%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 74px;
+}
+.animal{
+    overflow: hidden;
+    border: 1px solid #9A6262;
+    border-radius: 10px;
+    width: 467px;
+    height: 539px;
+    background-color: #9A6262;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 100px;
+}
+.animal img {
+    width: 467px;
+    height: auto;
+    position: relative;
+    top: 200px;
+}
+.animalName{
+    z-index: 1;
+    text-align: center;
+    padding-bottom: 5%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+.animalCharackters{
+    z-index: 1;
+    display: flex;
+    margin-right: 34px;
+    margin-left: 34px;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+.animalCharackters span {
+    border: 1px solid white;
+    background-color: white;
+    color: #6A727A;
+    border-radius: 5px;
+    width: 46%;
+    text-align: center;
+    padding: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+.centralContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
