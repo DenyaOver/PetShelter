@@ -6,11 +6,11 @@ FindAsset::register($this);
 ?>
 
 <div class="title">
-    Find a dog
+    Znajdź psa
 </div>
 <div class="Container">
     <div class="headerContainer">
-        Found (<?php echo count($dogs); ?>)
+        Znaleziono (<?php echo count($dogs); ?>)
     </div>
     <div class="centralContainer">
         <?php foreach ($dogs as $dog) :?>

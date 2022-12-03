@@ -22,34 +22,34 @@ use yii\helpers\Url;
 <div class="header">
     <div class="logo">
         <a href="<?= Url::toRoute(['pages/']) ?>"><?= Html::img('@web/images/Logo.png', ['height'=>'72px', 'width'=>'75px']);?>
-            <span style="padding-left: 15px;">Pets<span class="home">home</span></span></a>
+            <span style="padding-left: 15px;">Zwierząt<span class="home">dom</span></span></a>
     </div>
     <div class="nav">
         <div class="navbar-nav">
             <li class="nav-item">
-                <?= Html::a('About us', ['pages/about'], ['class' => 'nav-link']) ?>
+                <?= Html::a('O nas', ['pages/about'], ['class' => 'nav-link']) ?>
             </li>
             <li class="nav-item">
-                <?= Html::a('FAQ', ['pages/faq'], ['class' => 'nav-link']) ?>
+                <?= Html::a('Pytania i odpowiedzi', ['pages/faq'], ['class' => 'nav-link']) ?>
             </li>
             <li class="nav-item">
-                <?= Html::a('News', ['pages/news-page'], ['class' => 'nav-link']) ?>
+                <?= Html::a('Nowości', ['pages/news-page'], ['class' => 'nav-link']) ?>
             </li>
             <li class="nav-item line">
 
                 <?php if(!Yii::$app->user->isGuest): ?>
-                <?= Html::a('Log out', ['pages/logout'], ['class' => 'nav-link']) ?>
+                <?= Html::a('Wyjść', ['pages/logout'], ['class' => 'nav-link']) ?>
                 <?php else: ?>
-                <?= Html::a('Register', ['pages/registration'], ['class' => 'nav-link']) ?>
+                <?= Html::a('Zrejestrować się', ['pages/registration'], ['class' => 'nav-link']) ?>
                 <?php endif; ?>
 
             </li>
             <li class="nav-item line">
 
                 <?php if(!Yii::$app->user->isGuest): ?>
-                    <?= Html::a('My Page', ['pages/profile'], ['class' => 'nav-link']) ?>
+                    <?= Html::a('Moja strona', ['pages/profile'], ['class' => 'nav-link']) ?>
                 <?php else: ?>
-                    <?= Html::a('Log in', ['pages/profile'], ['class' => 'nav-link']) ?>
+                    <?= Html::a('Wejść', ['pages/profile'], ['class' => 'nav-link']) ?>
                 <?php endif; ?>
 
             </li>
@@ -60,7 +60,7 @@ use yii\helpers\Url;
             <?= Html::img('@web/images/phone.png', ['height'=>'18px', 'width'=>'19px']);?></div>
         <div class="opis">
             <span style="font-size: 18px; padding-bottom: 5px;">+48791950615</span>
-            <span style="font-size: 16px; font-weight: normal;">Daily from 9:00 to<br> 20:00</span></div>
+            <span style="font-size: 16px; font-weight: normal;">Każdy dzień od 9:00 do<br> 20:00</span></div>
     </div>
 </div>
 
@@ -70,12 +70,12 @@ use yii\helpers\Url;
     <table>
         <tr class="headers">
             <th>E-MAIL:</th>
-            <th>Social links:</th>
-            <th style="text-align: center; padding-left: 0px;">Support us:</th>
+            <th>Linki socialne:</th>
+            <th style="text-align: center; padding-left: 0px;">Wesprzyj nas:</th>
         </tr>
 
         <tr style="height: 87px">
-            <td>dimoha.ua@gmail.com</td>
+            <td>denya.sherstiuk@gmail.com</td>
             <td>Facebook</td>
             <td rowspan="4" style="text-align: center; padding-left: 0px;">
                 <?= Html::img('@web/images/Visa.png', ['height'=>'64px', 'width'=>'198px']);?>
@@ -85,7 +85,7 @@ use yii\helpers\Url;
             </td>
         </tr>
         <tr style="height: 87px">
-            <th class="headers">Number:</th>
+            <th class="headers">Numer:</th>
             <td>Instagram</td>
         </tr>
 
@@ -95,11 +95,11 @@ use yii\helpers\Url;
         </tr>
 
         <tr style="height: 87px">
-            <td>+351853135496</td>
+            <td>+48570097422</td>
             <td>YouTube</td>
         </tr>
     </table>
-    <h1>Braganca, Rua do Liceu 43/12</h1>
+    <h1>Wrocław, Jantarowa 10/12</h1>
     <h6>© 2021, petshome.com</h6>
 </div>
 <?php $this->endBody() ?>

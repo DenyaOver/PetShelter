@@ -20,7 +20,7 @@ form{
 }
 .main{
     font-family: 'Work Sans', sans-serif;
-    margin-top: 140px;
+    margin-top: 100px;
     padding-top: 200px;
     background-image: url(../images/circle.png);
     background-size: cover;
@@ -38,4 +38,15 @@ form{
 .main p {
     padding-left: 10%;
     padding-top: 50px;
+}
+.InheritForm{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;
+}
+h2{
+    color: black;
+    text-align: center;
 }

@@ -8,7 +8,7 @@ NewsPageAsset::register($this);
 
 <div>
 <div class="title">
-        News
+    Aktualności
 </div>
 <div class="Container">
     <div class="headerContainer">
@@ -27,7 +27,7 @@ NewsPageAsset::register($this);
             </a>
         <?php endforeach; ?>
         </div>
-    <div class="headerUrgetCase">Urgent Case</div>
+    <div class="headerUrgetCase">Pilna sprawa</div>
     <div class="centralContainer">
             <?php foreach ($urgent_case as $case) :?>
                 <a href=" <?php echo Url::toRoute(['pages/news', 'id'=>$case['id'], 'type'=>$case['type']]) ?> ">

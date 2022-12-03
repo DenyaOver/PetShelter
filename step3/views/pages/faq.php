@@ -5,41 +5,41 @@ FaqAsset::register($this);
 
 <div class="main">
     <div class="header_part">
-        How do I take my pet home?
+        Jak zabrać zwierzaka do domu?
     </div>
 
     <div class="main_part">
         <div class="blocks">
-            1. Choose a pet
-            <p>In the Find a Dog/Fing a Cat section of the main menu.</p>
+            1. Wybierz zwierzaka
+            <p>W sekcji Znajdź psa/Znajdź kota w menu głównym.</p>
         </div>
 
         <div class="blocks" style="margin-left: 153px; margin-right: 153px;">
-            2. Register and complete an application
-            <p>By clicking the button "Take a pet" in the questionnaire of a cat or dog</p>
+            2. Zarejestruj się i wypełnij wniosek
+            <p>Klikając przycisk „Weź zwierzaka” w ankiecie kota lub psa</p>
         </div>
 
         <div class="blocks">
-            3. Contact the pet owner
-            <p>The owner number will be sent to you by email after the application is made.</p>
+            3. Skontaktuj się z właścicielem zwierzaka
+            <p>Numer właściciela zostanie wysłany e-mailem po złożeniu wniosku.</p>
         </div>
 
         <div class="blocks" style="margin-top: 155px;">
-            4. Get an interview
-            <p>The owner number will be sent to you by email after the application is made.</p>
+            4. Umów się na rozmowę kwalifikacyjną
+            <p>Numer właściciela zostanie wysłany e-mailem po złożeniu wniosku.</p>
         </div>
 
         <div class="blocks" style="margin-top: 155px;">
-            5. Take your pet home and get a bonus from us
-            <p>Feed, discounts at pet stores and veterinarian support.</p>
+            5. Zabierz swojego zwierzaka do domu i odbierz od nas bonus
+            <p>Karma, zniżki w sklepach zoologicznych i wsparcie lekarza weterynarii.</p>
 
         </div>
     </div>
     <div class="footer_part">
         <div class="question">
-            Questions about the project "Pets home", about the rules
+        Pytania dotyczące projektu „Dom zwierzaków”, dotyczące zasad
 
-            <button class="accordion"><span> What is the "Pets home" project?</span>
+            <button class="accordion"><span> Czym jest projekt „Dom zwierzaka”?</span>
                 <div class="menu-btn">
                 <span></span>
                 <span></span>
@@ -51,7 +51,7 @@ FaqAsset::register($this);
                     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
-            <button class="accordion"><span> Do I have to pay to use the service?</span>
+            <button class="accordion"><span> Czy muszę płacić za korzystanie z usługi?</span>
                 <div class="menu-btn">
                     <span></span>
                     <span></span>
@@ -63,7 +63,7 @@ FaqAsset::register($this);
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
-            <button class="accordion"><span> How is your service different from shelter websites?</span>
+            <button class="accordion"><span> Czym wasze usługi różnią się od stron internetowych schronisk?</span>
                 <div class="menu-btn">
                     <span></span>
                     <span></span>
@@ -75,7 +75,7 @@ FaqAsset::register($this);
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
 
-            <button class="accordion"><span> Where can I find the address of the foundation shelter where the pet is located?</span>
+            <button class="accordion"><span> Gdzie znajdę adres schroniska fundacji, w którym przebywa zwierzę?</span>
                 <div class="menu-btn">
                     <span></span>
                     <span></span>

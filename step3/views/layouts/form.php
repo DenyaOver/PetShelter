@@ -22,7 +22,7 @@ use yii\helpers\Url;
 <div class="Container">
     <div class="logo">
         <a href="<?= Url::toRoute(['pages/']) ?>">
-            <?= Html::img('@web/images/Logo.png', ['height'=>'72px', 'width'=>'75px']);?> <span class="logoPets">Pets<span class="logoHome">home</span></span></a>
+            <?= Html::img('@web/images/Logo.png', ['height'=>'72px', 'width'=>'75px']);?> <span class="logoPets">Zwierząt<span class="logoHome">dom</span></span></a>
     </div>
     <?= $content ?>
 </div>

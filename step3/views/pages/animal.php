@@ -8,14 +8,14 @@ AnimalAsset::register($this);
 <div class="Container">
     <div class="title">
         <div class="titleName">
-             <?php echo $pet->pet . ' ' .$pet->name . ', ' . $pet->age . ' years'; ?>
+             <?php echo $pet->pet . ' ' .$pet->name . ', ' . $pet->age . ' lat'; ?>
         </div>
         <div class="titleCharacter">
-            Breed: <?php echo $pet->breed; ?>
+            Rasa: <?php echo $pet->breed; ?>
         </div>
         <div class="titleDescription">
             <div>
-                Description:
+                Opis:
             </div>
             <div>
                 <?php echo $pet->description; ?>
@@ -23,11 +23,11 @@ AnimalAsset::register($this);
         </div>
         <div class="titleButton">
             <?php Modal::begin([
-                'title'=> 'Information' ,
-                'toggleButton' => ['label' => 'Take a ' . $pet->pet],
+                'title'=> 'Informacja' ,
+                'toggleButton' => ['label' => 'Wziąć ' . $pet->pet],
             ]);
-            echo 'Owner name: ' . $pet->user->name;
-            echo '</br></br>Phone number: '.$pet->user->phone;
+            echo 'Imię właściciela: ' . $pet->user->name;
+            echo '</br></br>Numer telefonu: '.$pet->user->phone;
             echo '</br></br>Region: '.$pet->user->region;
             echo '</br></br>E-mail: '.$pet->user->email;
             Modal::end(); ?>
@@ -36,4 +36,4 @@ AnimalAsset::register($this);
     <div class="photo">
         <?php echo Html::img('/uploads/' . $pet ['photo']) ?>
     </div>
-</div>uhsekjbkhfskbfhbdf
+</div>

@@ -6,10 +6,10 @@ use yii\widgets\ActiveForm;
 ?>
 <div class="title">
       <span class="titleReg">
-          Log in to your account
+        Zaloguj się na swoje konto
       </span>
     <span class="titleSign">
-        <?= Html::a('New to Pets Reunited? Click here to register...', ['pages/registration']) ?>
+        <?= Html::a('Nowy w Pets Reunited? Kliknij tutaj aby się zarejestrować...', ['pages/registration']) ?>
       </span>
 </div>
     <div class="form">
@@ -20,15 +20,15 @@ use yii\widgets\ActiveForm;
                 'inputOptions' => ['class' => 'col-lg-3 form-control'],
                 'errorOptions' => ['class' => 'col-lg-7 invalid-feedback'],
             ],]) ?>
-        <?= $form->field($model, 'email')->textInput(['autofocus' => true])->input('email')->label('Your E-mail') ?>
+        <?= $form->field($model, 'email')->textInput(['autofocus' => true])->input('email')->label('Twój E-mail') ?>
 
-        <?= $form->field($model, 'password')->passwordInput()->label('Your Password') ?>
+        <?= $form->field($model, 'password')->passwordInput()->label('Twóje Hasło') ?>
 
         <?= $form->field($model, 'rememberMe')->checkbox([
             'template' => "<div class=\"offset-lg-1 col-lg-3 custom-control custom-checkbox\">{input} {label}</div>\n<div class=\"col-lg-8\">{error}</div>",
         ]) ?>
 
-        <?= Html::submitButton('Log in', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
+        <?= Html::submitButton('Zaloguj sie', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
         <?php ActiveForm::end() ?>
     </div>
 

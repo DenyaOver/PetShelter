@@ -31,12 +31,15 @@ body{
     background-color: black;
 }
 .footer_part{
-    background: url(../images/circle.png) 100% 100% no-repeat;
-    background-size: cover;
+    background: url(../images/circle.png) 50% 100% no-repeat;
+    /* background-size: cover; */
     display: flex;
     justify-content: center;
+    padding-bottom: 130px;
 }
 .blocks{
+    border: 1px solid white;
+    border-radius: 30px;
     height: 266px;
     width: 467px;
     background-color: white;
@@ -58,10 +61,10 @@ body{
 
 }
 .question{
+    border: 1px solid black;
+    border-radius: 40px;
     margin-top: 130px;
-    padding-top: 80px;
-    padding-left: 38px;
-    padding-right: 38px;
+    padding: 80px 38px 80px 38px;
     color: black;
     width: 1306px;
     background-color: white;
@@ -74,7 +77,7 @@ body{
 }
 .accordion {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     background-color: white;
     cursor: pointer;
     padding-top: 60px;
@@ -107,7 +110,6 @@ body{
     height: 30px;
     position: relative;
     z-index:2;
-    overflow: hidden;
 }
 
 .menu-btn span {
